@@ -25,7 +25,6 @@
 <body>
 
 <div id="latex">
-
     <a name="B1"></a>
     <div class="scrollblock block-b1">
         <h2>1</h2>
@@ -294,23 +293,14 @@
                     var chart = new google.visualization.LineChart(document.getElementById('chart_b8'));
                     chart.draw(data, options);
                   }
-            </script>
-
-
+            </script>            
+        </p>
         <form class="pure-form">
             <fieldset>
                 <input type="text" placeholder="Ответ">
             <fieldset>
         </form>
     </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -329,6 +319,7 @@
             <fieldset>
         </form>
     </div>
+
     <a name="C4"></a>
     <div class="scrollblock block-c4">
         <h2>18</h2>
@@ -373,79 +364,6 @@
                 <input type="text" placeholder="Ответ">
             <fieldset>
         </form>
-    </div>
-
-
-
-
-    <a name="checkout"></a>
-    <div class="scrollblock block-checkout">
-        <h2>checkout a repository</h2>
-        <p>
-            create a working copy of a local repository by running the command<br />
-            <code>git clone /path/to/repository</code><br />
-            when using a remote server, your command will be<br />
-            <code>git clone username@host:/path/to/repository</code>
-        </p>
-    </div>
-    <a name="checkout-replace"></a>
-    <div class="scrollblock block-checkout-replace">
-        <h2>replace local changes</h2>
-        <p>
-            In case you did something wrong, which for sure never happens ;), you can replace local changes using the command<br />
-            <code>git checkout -- &lt;filename&gt;</code><br />
-            this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
-        </p>
-        <p>
-            If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this<br />
-            <code>git fetch origin</code><br />
-            <code>git reset --hard origin/master</code>
-        </p>
-    </div>
-    <a name="hints"></a>
-    <div class="scrollblock block-hints">
-        <h2>useful hints</h2>
-        <p>
-            built-in git GUI<br />
-            <code>gitk</code><br />
-            use colorful git output<br />
-            <code>git config color.ui true</code><br />
-            show log on just one line per commit<br />
-            <code>git config format.pretty oneline</code><br />
-            use interactive adding<br />
-            <code>git add -i</code>
-        </p>
-    </div>
-    <a name="resources"></a>
-    <div class="scrollblock block-resources">
-        <h2>links & resources</h2>
-        <h3>graphical clients</h3>
-        <p>
-            <ul>
-                <li><a href="http://gitx.laullon.com/">GitX (L) (OSX, open source)</a></li>
-                <li><a href="http://www.git-tower.com/">Tower (OSX)</a></li>
-                <li><a href="http://www.sourcetreeapp.com/">Source Tree (OSX & Windows, free)</a></li>
-                <li><a href="http://mac.github.com/">GitHub for Mac (OSX, free)</a></li>
-                <li><a href="https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12">GitBox (OSX, App Store)</a></li>
-            </ul>
-        </p>
-        <h3>guides</h3>
-        <p>
-            <ul>
-                <li><a href="http://book.git-scm.com/">Git Community Book</a></li>
-                <li><a href="http://progit.org/book/">Pro Git</a></li>
-                <li><a href="http://think-like-a-git.net/">Think like a git</a></li>
-                <li><a href="http://help.github.com/">GitHub Help</a></li>
-                <li><a href="http://marklodato.github.com/visual-git-guide/index-en.html">A Visual Git Guide</a></li>
-            </ul>
-        </p>
-        <h3>get help</h3>
-        <p>
-            <ul>
-                <li><a href="http://groups.google.com/group/git-users/">Git User Mailing List</a></li>
-                <li><a href="http://jk.gs/git/">#git on irc.freenode.net</a></li>
-            </ul>
-        </p>
     </div>
 </div>
     <script>
